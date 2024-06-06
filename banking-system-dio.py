@@ -128,8 +128,7 @@ class Historico:
         self._transacoes.append(
             {
                 "tipo": transacao.__class__.__name__,
-                "valor": transacao.valor,
-                "data": datetime.now().strftime("%d-%m-%Y %H:%M:%s"),
+                "valor": transacao.valor
             }
         )
 
